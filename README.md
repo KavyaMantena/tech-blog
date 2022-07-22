@@ -18,5 +18,7 @@ Heroku
 Kavya Mantena
 
 #GitHub
+https://github.com/KavyaMantena/tech-blog
 
 Website Link
+https://fierce-shelf-90070.herokuapp.com/
