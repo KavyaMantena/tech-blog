@@ -1,0 +1,17 @@
+
+{{#if posts.length}}
+<section>
+  <h2>Your Posts</h2>
+  <ol>
+     {{#each posts}}
+  <li>
+    <a href="/dashboard/posts/{{id}}">{{title}}{{created_at}}</a>
+  </li>
+  {{/each}}
+  </ol>
+</section>
+{{/if}}
+
+<button type="button" class='new-post-btn'>+New Post</button>
+
+<script src='/javascript/navigate-to-new-post.js'></script>
